@@ -145,7 +145,7 @@ body {
 }
 .main__btn-container {
   border-radius: 40px 40px 0 0;
-  background-color: #1A1E23;
+  background-color: #000000d6;
   flex: auto;
   max-width: 414px;
   justify-self: stretch;
@@ -174,7 +174,7 @@ p {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   font-family: Roboto, sans-serif;
   height: 50px;
@@ -193,9 +193,9 @@ p {
   background-color: #BD2836;
 }
 .stroke-btn {
-  background-color: #1B1F23;
-  border: solid 1px #a20002;
-  color: #a50002;
+  background-color: #a50002;
+    border: solid 1px #ffffff00;
+    color: #ffffff;
 }
 .stroke-btn:hover {
   background-color: #1A1E23;
@@ -239,13 +239,13 @@ p {
   background-color: #05080B;
 }
 .social-media--instagram {
-  background-color: #C13584;
+  background-color: #9147ff;
 }
 .social-media--instagram:hover {
-  background-color: #A8246F;
+  background-color: #9147ff;
 }
 .social-media--instagram:active {
-  background-color: #A8246F;
+  background-color: #9147ff;
 }
 .social-media--tiktok {
   background-color: #000000;
