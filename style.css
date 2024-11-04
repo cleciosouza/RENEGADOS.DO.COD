@@ -132,8 +132,9 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #393E46;
-  background: url('https://renegadosdocod.vercel.app/bg-red-blur.jpg');
+  background: url('https://renegadosdocod.vercel.app/bg.png');
   background-size: cover;
+  background-position: center;
 }
 .main__container {
   width: 414px;
