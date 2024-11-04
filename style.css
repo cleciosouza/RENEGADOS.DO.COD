@@ -169,7 +169,7 @@ p {
 }
 .btn {
   border: none;
-  border-radius: 5px;
+  border-radius: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -194,8 +194,8 @@ p {
 }
 .stroke-btn {
   background-color: #1B1F23;
-  border: solid 1px #DD3C4B;
-  color: #DD3C4B;
+  border: solid 1px #a20002;
+  color: #a50002;
 }
 .stroke-btn:hover {
   background-color: #1A1E23;
