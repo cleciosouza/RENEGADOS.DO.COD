@@ -127,6 +127,17 @@ a {
   text-decoration: none;
 }
 /* \reset */
+
+*, html {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  line-height: normal;
+}
+
+
+
+
 body {
   display: flex;
   justify-content: center;
@@ -158,14 +169,16 @@ body {
 h1,
 p {
   color: #fff;
-  font-family: Roboto, sans-serif;
+  /* font-family: Roboto, sans-serif; */
 }
 h1 {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: bold;
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
 }
 .btn {
   border: none;
@@ -181,6 +194,7 @@ p {
   margin-top: 24px;
   transition: 0.2s ease-in;
   outline: none;
+  
 }
 .filled-btn {
   background-color: #DD3C4B;
@@ -229,8 +243,17 @@ p {
   cursor: pointer;
   transition: 0.2s ease-in;
 }
+.social-media--kwai {
+  background-color: #ff7801;
+}
+.social-media--kwai:hover {
+  background-color: #980326;
+}
+.social-media--kwai:active {
+  background-color: #ff7801;
+}
 .social-media--whatsapp {
-  background-color: #119542;
+  background-color: #8e9511;
 }
 .social-media--whatsapp:hover {
   background-color: #25d366;
@@ -242,7 +265,7 @@ p {
   background-color: #9147ff;
 }
 .social-media--instagram:hover {
-  background-color: #9147ff;
+  background-color: #4c003e;
 }
 .social-media--instagram:active {
   background-color: #9147ff;
@@ -255,4 +278,37 @@ p {
 }
 .social-media--tiktok:active {
   background-color: #320101;
+}
+
+
+.btn-animate-gradient {
+  
+  color: rgba(255,255,255,0.9);
+  border-radius: 50px;
+  background: linear-gradient(-45deg, #ffa63d, #ff3d77, #ff3a33, #f0d53c);
+  background-size: 600%;
+  -webkit-animation: anime 16s linear infinite;
+          animation: anime 16s linear infinite;
+}
+@-webkit-keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
