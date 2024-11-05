@@ -146,6 +146,7 @@ body {
   background: url('https://renegadosdocod.vercel.app/bg-renegados.jpg');
   background-size: cover;
   background-position: center;
+  border-top: #ef0000 .5rem solid;
 }
 .main__container {
   width: 414px;
