@@ -160,6 +160,7 @@ body {
   flex: auto;
   max-width: 414px;
   justify-self: stretch;
+  justify-content: space-between;
   padding: 36px;
   padding-top: 64px;
   margin-top: 64px;
