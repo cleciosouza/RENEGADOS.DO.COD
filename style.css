@@ -285,10 +285,10 @@ p {
   
   color: rgba(255,255,255,0.9);
   border-radius: 50px;
-  background: linear-gradient(-45deg, #ffa63d, #ff3d77, #ff3a33, #f0d53c);
+  background: linear-gradient(-45deg, #ffa63d, #930303, #ec0c04, #f1cd04);
   background-size: 600%;
-  -webkit-animation: anime 16s linear infinite;
-          animation: anime 16s linear infinite;
+  -webkit-animation: anime 7s linear infinite;
+          animation: anime 7s linear infinite;
 }
 @-webkit-keyframes anime {
   0% {
